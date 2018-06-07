@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="page page-index-static navbar-layout-default">
+    {% include gtm.html %}
+
+    {% include nav.html %}
+    
+    <div id="content" class="p-0">
+    {{ content }}
+    </div>
+    
+    {% include index/below.html %}
+    {% include index/footer.html %}
+
+    {% include scripts.html %}
+
+</body>
+
+</html>
